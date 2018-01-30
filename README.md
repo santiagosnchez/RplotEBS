@@ -44,6 +44,9 @@ If you want both the x-axis trimmed and have the same y-axis in all your plots, 
 
     Rscript RplotEBS.R path='.' pattern=.csv trim.x=-10.0 y.eq=TRUE
 
+You can also pass more `plot` arguments at the end of the command. For example:
+
+    Rscript RplotEBS.R path='.' pattern=.csv trim.x=-10.0 y.eq=TRUE log='y'
 
 ## Generating the plot
 
